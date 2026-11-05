@@ -1,0 +1,42 @@
+
+====================================
+       SIMPLE LINE EDITOR
+====================================
+
+ABOUT:
+This is a simple command-line text editor
+developed using the C programming language.
+It allows users to insert, delete, display,
+save, load and search text lines.
+
+COMMANDS:
+
+1. Display Document
+   Displays all lines with their line numbers.
+
+2. Insert Line
+   Inserts new text at a specified line number.
+
+3. Delete Line
+   Deletes a selected line from the document.
+
+4. Save File
+   Saves all document lines into document.txt.
+
+5. Load File
+   Loads previously saved text from document.txt.
+
+6. Search Word
+   Searches for a word or phrase and displays
+   the line numbers where it is found.
+
+7. Exit
+   Closes the line editor.
+
+HOW TO COMPILE:
+gcc line_editor.c -o editor
+
+HOW TO RUN:
+editor.exe
+
+====================================
